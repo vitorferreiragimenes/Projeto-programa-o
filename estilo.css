@@ -25,6 +25,7 @@ body {
   display: flex; 
   flex-direction: column; 
   min-height: 100vh; 
+  background-color: #a24d11; 
 } 
 
 main { 
@@ -33,7 +34,19 @@ main {
 
 .cabecalho-link {
   color: #602306;
+  text-decoration: none;
 }
+
+h1 { 
+  color: #c36d26; 
+  font-size: 24px; 
+} 
+
+footer { 
+  background-color: #7e3e1c; 
+  padding: 15px 25px; 
+  color: #4a2614; 
+} 
 .cartao-imagem{
     width: 100%;
 }
