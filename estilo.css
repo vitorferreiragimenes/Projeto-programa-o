@@ -7,7 +7,8 @@ padding: 0;
 .cabecalho { 
   display: flex; 
   justify-content: space-between; 
-  align-items: center; 
+  align-items: center;
+  background-color: beige; 
   padding: 15px 25px; 
 } 
 
@@ -30,6 +31,9 @@ main {
   flex: 1; 
 } 
 
+.cabecalho-link {
+  color: #602306;
+}
 .cartao-imagem{
     width: 100%;
 }
